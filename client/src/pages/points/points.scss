@@ -1,0 +1,56 @@
+.showDevice {
+
+    text-align: center;
+    margin-bottom: 10px;
+
+    p {
+        padding-right: 20px;
+        display: inline-block;
+    }
+
+    .deviceDetail {
+        display: inline-flex;
+    }
+    h5{text-decoration: underline;}
+
+}
+
+
+.newTitle.point {
+
+    color: #0a0a57ba;
+    border-bottom: 3px inset rgba(12, 4, 36, 0.809);
+
+}
+
+
+.devices {
+    button {
+        display: flex;
+        margin: auto;
+        margin-bottom: 25px;
+
+        padding: 0.7em 1.7em;
+        font-size: 12px;
+        border-radius: 0.5em;
+        background: #3b5081;
+        border: 1px solid #e8e8e8;
+        transition: all .3s;
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+
+    button:hover {
+        border: 1px solid white;
+    }
+
+    .sensor{
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+}

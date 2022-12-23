@@ -1,0 +1,122 @@
+.devices {
+
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    a{
+        text-decoration: none;
+    }
+
+    .btn{
+        transition: none;
+    }
+
+    .btn:hover{
+        text-decoration: none;
+        letter-spacing: 1px;
+        transform: scale(1.03);
+        border: none;
+    }
+    
+  .container{
+    border: none;
+    margin-top: 50px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+
+    .box{
+        color: black;
+        height: 150px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        background: White;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+     
+
+        h3{
+            color: #444;
+            padding: 10px 0;
+            font-size: 20px;
+        }
+    }
+
+}
+
+
+  
+
+
+
+    .newTitle {
+        font-weight: 400;
+        color: #090916ba;
+        text-align: center;
+        border-bottom: 3px inset rgba(0, 0, 0, 0.396);
+        border-radius: 1px 1px 4px 4px;
+        margin-bottom: 20px;
+        letter-spacing: 7px;
+    }
+
+        .search {
+            display: flex;
+            margin: auto;
+            border-radius: 15px;
+            padding-left: 15px;
+        }
+
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+            list-style: none;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+
+            table {
+             
+                th {
+                    height: 70px;
+                    width: 120px;
+                }
+
+                td {
+                    padding-bottom: 5px;
+                }
+
+                .edit {
+                    color: rgb(13, 55, 31);
+                    cursor: pointer;
+                    align-items: center;
+                }
+
+                .delete {
+                    
+                    cursor: pointer;
+
+
+                }
+
+                .show{
+                    cursor: pointer;
+
+                }
+            }
+        }
+    
+}
+
+@media only screen and (max-width: 900px) {
+    td {
+      font-size: 12px;
+    }
+  }
+@media only screen and (max-width: 700px) {
+    td {
+      font-size: 10px;
+    }
+    
+  }

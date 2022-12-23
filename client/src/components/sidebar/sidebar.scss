@@ -1,0 +1,68 @@
+@import '../../variables';
+
+.sidebar {
+
+    position: fixed;
+  
+    z-index: 100;
+    width: 155px;
+    background-color: $sidebarBackgoundColor;
+    flex: 1;
+    box-shadow: inset -1px 0 0 rgb(0 0 0 / 10%);
+    min-height: 100vh;
+
+    @media screen and (max-width: 600px) {
+           width: 66px;
+           flex:0;
+        }
+        
+    .top {
+        background-color: $headerBackgroundColor;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        // justify-content: center;
+
+        .logo {
+            font-size: 20px;
+            color: white;
+
+            img {
+                margin-right: 5px;
+            }
+        }
+    }
+    .center {
+        padding-left: 12px;
+        padding-right: 12px;
+   
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            color: $sidebarTextColor;
+
+            li {
+                // color: black;
+                display: flex;
+                // margin-bottom: 20px;
+                align-items: center;
+                padding: 38px 10px 3px 9px;
+                cursor: pointer;
+
+                &:hover {
+                    text-shadow:1px 0px 0px black;
+                }
+
+                .icon {
+                    // font-size: 20px;
+                    margin-right: 10px;
+                }
+            }
+
+        }
+    }
+}
+

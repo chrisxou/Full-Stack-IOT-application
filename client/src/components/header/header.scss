@@ -1,0 +1,39 @@
+@import '../../variables';
+
+.header{
+    height:50px;
+    background-color: $headerBackgroundColor;
+    display:flex;
+    align-items: center;
+    font-size: 14px;
+
+    position: sticky;
+    top:0;
+    z-index:99;
+
+    .wrapper{
+        width:100%; 
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding-right: 10px;
+    
+        .items{
+            display: flex;
+            align-items: center;
+            color: rgba(255,255,255,0.7);
+
+            .item{
+                align-items: center;
+                font-size: 11px;
+
+                @media screen and (max-width: 400px) {
+                    font-size: 8px;   
+                }
+            }
+        }
+    }
+
+
+}
+

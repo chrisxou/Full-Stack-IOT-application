@@ -1,0 +1,81 @@
+.new {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+
+    .newTitle {
+        font-weight: 300;
+        color: #150e4c;
+        text-align: center;
+        border-bottom: 3px inset rgb(8, 8, 47);
+        border-radius: 1px 1px 4px 4px;
+        margin-bottom: 20px;
+
+    }
+
+    .error{
+        margin-top: 40px;
+        text-align:center;  
+        color: red;
+      }
+
+    .newDeviceForm {
+        display: flex;
+        flex-wrap: wrap;
+        // flex:2;
+
+        .newDeviceItem {
+            display: flex;
+            width: 300px;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-right: 20px;
+
+            .datas{
+                margin-top: 0;
+                height: 40px;
+                padding: 8px;
+                border:1px solid gray;
+                border-radius: 15px;
+          }
+            
+            >label{
+                margin-left: 5px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: 600;
+                color: grey;
+            }
+
+            >input{
+                height: 40px;
+                padding: 10px;
+                border:1px solid gray;
+                border-radius: 15px;
+            }
+
+            >button{
+                margin-top: 28px;
+                border-radius: 15px; 
+                background-color: rgb(8, 8, 47);
+                color: white;
+                padding: 7px;
+                width: 100%;              
+                align-self: center;
+            }
+
+            >p{
+                margin-top: 28px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .new{
+        margin: auto;
+        width: 300px;
+    }
+  }
+
